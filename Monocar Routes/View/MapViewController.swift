@@ -165,7 +165,7 @@ extension MapViewController: UICollectionViewDataSource {
         }
         driverCell.driverRating.text = String(driverData.rating)
         driverCell.timeLabel.text = presenter.getDate()[indexPath.row].1
-        driverCell.priceLabel.text = String(driverData.cost_per_seat)
+        driverCell.priceLabel.text = "\(driverData.cost_per_seat) ₴"
         driverCell.dateLabel.text = presenter.getDate()[indexPath.row].0
         driverCell.capacityLabel.text = String(driverData.seats_count)
         

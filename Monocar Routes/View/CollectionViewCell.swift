@@ -111,7 +111,6 @@ class CollectionViewCell: UICollectionViewCell {
         starIcon.image = UIImage(named: "star")
         starIcon.contentMode = .scaleAspectFit
         ratingStackView.setCustomSpacing(6, after: starIcon)
-        driverRating.text = "4.4"
         driverRating.font = .systemFont(ofSize: 12)
         
         mainStackView.addArrangedSubview(firstHorizontalLine)
@@ -133,7 +132,6 @@ class CollectionViewCell: UICollectionViewCell {
         timeIcon.image = UIImage(named: "bx-time-five")
         timeIcon.contentMode = .scaleAspectFit
         timeStackView.addArrangedSubview(timeLabel)
-        timeLabel.text = "08:45"
         timeLabel.textColor = blueColor
         timeLabel.font = .systemFont(ofSize: 18, weight: .bold)
         
@@ -145,7 +143,6 @@ class CollectionViewCell: UICollectionViewCell {
         priceIcon.contentMode = .scaleAspectFit
         priceStackView.addArrangedSubview(priceLabel)
         priceLabel.textColor = blueColor
-        priceLabel.text = "35 ₴"
         priceLabel.font = .systemFont(ofSize: 18, weight: .bold)
         priceStackView.layoutMargins = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 0)
         priceStackView.isLayoutMarginsRelativeArrangement = true
@@ -168,7 +165,6 @@ class CollectionViewCell: UICollectionViewCell {
         dateIcon.image = UIImage(named: "bx-calendar")
         dateIcon.contentMode = .scaleAspectFit
         dateStackView.addArrangedSubview(dateLabel)
-        dateLabel.text = "30.07.2020"
         dateLabel.adjustsFontSizeToFitWidth = true
         dateLabel.font = .systemFont(ofSize: 14)
         
@@ -179,7 +175,6 @@ class CollectionViewCell: UICollectionViewCell {
         capacityIcon.image = UIImage(named: "bx-group")
         capacityIcon.contentMode = .scaleAspectFit
         capacityStackView.addArrangedSubview(capacityLabel)
-        capacityLabel.text = "2 Місця"
         capacityLabel.font = .systemFont(ofSize: 14)
         capacityStackView.layoutMargins = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 0)
         capacityStackView.isLayoutMarginsRelativeArrangement = true
